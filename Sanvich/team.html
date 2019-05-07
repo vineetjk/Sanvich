@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#069370" />
+  <title>sanvich</title>
+  <link rel="stylesheet" type="text/css" href="style.css"> 
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+</head>
+<body>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/5.11.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBUGiR67v5rUgJyJxQoTXC8ewdQO4K6gPI",
+    authDomain: "sanvichcodes.firebaseapp.com",
+    databaseURL: "https://sanvichcodes.firebaseio.com",
+    projectId: "sanvichcodes",
+    storageBucket: "sanvichcodes.appspot.com",
+    messagingSenderId: "1064791680562",
+    appId: "1:1064791680562:web:ad2c2e3cbdbee264"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+  <header>
+    <a href="#" class="logo">sanvich</a>
+    <div class="menu-toggle"></div>
+    <nav>
+      <ul>
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="team.html"class="active">Team</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="clearfix"></div>
+  </header>
+  <script
+			  src="https://code.jquery.com/jquery-3.4.1.js"
+			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+        <script type="text/javascript">
+          $(document).ready(function(){
+            $('.menu-toggle').click(function(){
+              $('.menu-toggle').toggleClass('active')
+              $('nav').toggleClass('active')
+            })
+          })
+        </script>
+
+    <div id="team">
+        <div id="fullset">
+            <svg class="gpath" viewBox="-618 -36.533 768 496.996">
+			<path id="gpath" d="M -618 82.19778442382813 L 149.9998931884766 -36.53332901000977 L 149.9998931884766 359.237060546875 L -618 460.4630737304688 L -618 82.19778442382813 Z">
+			</path>
+		</svg>
+
+            </svg>
+            <div id="vineet" >
+                
+                <svg class="myim" >
+                    
+                </svg>
+                <div id="VINEET_JK">
+                    <span>VINEET JK</span>
+                </div>
+            </div>
+            <div id="chiz">
+                <svg class="chizim">
+                    <ellipse id="chizim" rx="68" ry="68" cx="68" cy="68">
+                    </ellipse>
+                </svg>
+                <div id="CHIRAG_HS">
+                    <span>CHIRAG HS</span>
+                </div>
+            </div>
+            <div id="santu">
+                <svg class="santim">
+                    <ellipse id="santim" rx="68" ry="68" cx="68" cy="68">
+                    </ellipse>
+                </svg>
+                <div id="SANTHOSH_M">
+                    <span>SANTHOSH M</span>
+                </div>
+            </div>
+            <div id="vini">
+                <svg class="viniim">
+                    <ellipse id="viniim" rx="68" ry="68" cx="68" cy="68">
+                    </ellipse>
+                </svg>
+                <div id="VINAY_NM">
+                    <span>VINAY NM</span>
+                </div>
+            </div>
+            <div id="vinni">
+                <svg class="vinayim">
+                    <ellipse id="vinayim" rx="68" ry="68" cx="68" cy="68">
+                    </ellipse>
+                </svg>
+                <div id="VINAY_N">
+                    <span>VINAY N</span>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+</body>
+<script>
+    if ('serviceWorker' in navigator) {
+      console.log("Will the service worker register?");
+      navigator.serviceWorker.register('service-worker.js')
+        .then(function(reg){
+          console.log("Yes, it did.");
+        }).catch(function(err) {
+          console.log("No it didn't. This happened: ", err)
+        });
+    }
+  </script>
+</html>

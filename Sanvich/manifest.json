@@ -1,0 +1,15 @@
+{
+    "short_name": "sanvich",
+    "name": "sanvich",
+    "icons": [
+      {
+        "src":"icon.png",
+        "sizes": "178x78",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/?utm_source=homescreen",
+    "background_color": "#fff",
+    "Theme_color": "#069370",
+    "display": "standalone"
+  }

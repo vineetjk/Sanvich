@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:20');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url(bg.jpg);
+    background-attachment: fixed;
+}
+
+header{
+    position: relative;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0, 0, .2);
+
+}
+.logo{
+    color: #069370;
+    height: 60px;
+    font-size: 36px;
+    line-height: 60px;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 700;
+    text-decoration: none;
+}
+nav{
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    list-style:none;
+}
+nav ul li a{
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #262626
+}
+nav ul li a.active,
+nav ul li a:hover{
+    background: #069370;
+    color: #fff;
+    transition: 0.5s;
+}
+@media (max-width: 1200px)
+{
+    header{
+        margin: 20px;
+    }
+}
+@media (max-width: 826px)
+{
+    .menu-toggle{
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+        float: right;
+        cursor: pointer;
+        text-align: center;
+        font-size: 30px;
+        color: #069370;
+    }
+    .menu-toggle:before{
+        content: '\f0c9';
+        font-family: fontAwesome;
+        line-height: 40px;
+    }
+    .menu-toggle.active:before{
+        content: '\f00d';
+        
+    }
+    nav{
+        display: none;
+    }
+    nav.active{
+        display: block;
+        width: 100%;
+    }
+    nav.active ul{
+        display: block;
+    }
+    body {
+		margin: 0;
+		padding: 0;
+	}
+	:root {
+		--web-view-ids: team;
+	}
+	#team * {
+		margin: 0;
+		padding: 0;
+	}
+	#team {
+		position: absolute;
+		box-sizing: border-box;
+		background: #E5E5E5;
+		width: 768px;
+		height: 1024px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		opacity: 1;
+		--web-view-name: team;
+		--web-view-id: team;
+		--web-enable-deep-linking: true;
+	}
+	#fullset {
+		opacity: 1;
+		position: absolute;
+		width: 768px;
+		height: 496.996px;
+		left: 0px;
+		top: 173.731px;
+		overflow: visible;
+	}
+	#gpath {
+		opacity: 1;
+		fill: rgba(0,255,196,1);
+	}
+	.gpath {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 768px;
+		height: 496.996px;
+	}
+	#vineet {
+		opacity: 1;
+		position: absolute;
+		width: 136px;
+		height: 180px;
+		left: 129px;
+		top: 14.269px;
+		overflow: visible;
+	}
+	#myim {
+		opacity: 1;
+		box-sizing: border-box;
+		
+	}
+	.myim {
+		position: absolute;
+		overflow: visible;
+		width: 154px;
+		height: 154px;
+		left: 0px;
+		top: 0px;
+	}
+	#VINEET_JK {
+		opacity: 1;
+		position: absolute;
+		left: 0px;
+		top: 155px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 137px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lucida Console;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#chiz {
+		opacity: 1;
+		position: absolute;
+		width: 136px;
+		height: 180px;
+		left: 434px;
+		top: 14.269px;
+		overflow: visible;
+	}
+	#chizim {
+		opacity: 1;
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		fill: rgba(255,255,255,1);
+	}
+	.chizim {
+		position: absolute;
+		overflow: visible;
+		width: 154px;
+		height: 154px;
+		left: 0px;
+		top: 0px;
+	}
+	#CHIRAG_HS {
+		opacity: 1;
+		position: absolute;
+		left: 0px;
+		top: 155px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 137px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lucida Console;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#santu {
+		opacity: 1;
+		position: absolute;
+		width: 151px;
+		height: 180px;
+		left: 129px;
+		top: 290.269px;
+		overflow: visible;
+	}
+	#santim {
+		opacity: 1;
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		fill: rgba(255,255,255,1);
+	}
+	.santim {
+		position: absolute;
+		overflow: visible;
+		width: 154px;
+		height: 154px;
+		left: 0px;
+		top: 0px;
+	}
+	#SANTHOSH_M {
+		opacity: 1;
+		position: absolute;
+		left: 0px;
+		top: 155px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 152px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lucida Console;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#vini {
+		opacity: 1;
+		position: absolute;
+		width: 136px;
+		height: 180px;
+		left: 366px;
+		top: 290.269px;
+		overflow: visible;
+	}
+	#viniim {
+		opacity: 1;
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		fill: rgba(255,255,255,1);
+	}
+	.viniim {
+		position: absolute;
+		overflow: visible;
+		width: 154px;
+		height: 154px;
+		left: 0px;
+		top: 0px;
+	}
+	#VINAY_NM {
+		opacity: 1;
+		position: absolute;
+		left: 8px;
+		top: 155px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 122px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lucida Console;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#vinni {
+		opacity: 1;
+		position: absolute;
+		width: 136px;
+		height: 180px;
+		left: 588px;
+		top: 290.269px;
+		overflow: visible;
+	}
+	#vinayim {
+		opacity: 1;
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		fill: rgba(255,255,255,1);
+	}
+	.vinayim {
+		position: absolute;
+		overflow: visible;
+		width: 154px;
+		height: 154px;
+		left: 0px;
+		top: 0px;
+	}
+	#VINAY_N {
+		opacity: 1;
+		position: absolute;
+		left: 16px;
+		top: 155px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 106px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lucida Console;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+    @media (max-width: 360px)
+    {
+	#team * {
+		margin: 0;
+        padding: 0;
+        align-content: center;
+	}
+	#team {
+		position: absolute;
+		box-sizing: border-box;
+        background: #E5E5E5;
+        align-content: center;
+		width: 360px;
+		height: 1171px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		opacity: 1;
+		--web-view-name: team;
+		--web-view-id: team;
+		--web-enable-deep-linking: true;
+	}
+	#fullset {
+		opacity: 1;
+		position: absolute;
+		width: auto;
+		height: 1016.4px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#gpath {
+		opacity: 1;
+		fill: rgba(0,255,196,1);
+	}
+	.gpath {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 414px;
+		height: 2000px;
+	}
+	#vineet {
+        align-content: center;
+		opacity: 1;
+		position: absolute;
+		width: 136px;
+		height: 180px;
+		left: 112px;
+		top: 44.4px;
+		overflow: visible;
+	}
+	#myim {
+		opacity: 1;
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		fill: rgba(255,255,255,1);
+	}
+	.myim {
+		position: absolute;
+		overflow: visible;
+		width: 154px;
+		height: 154px;
+		box-sizing: border-box;
+		
+     	border-radius: 100px;
+    	box-shadow: 0 2px 5px rgba(0,0, 0, .2);
+		left: 0px;
+		top: 0px;
+	}
+	#VINEET_JK {
+		opacity: 1;
+		position: absolute;
+		left: 0px;
+		top: 155px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 137px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lucida Console;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#chiz {
+		opacity: 1;
+		position: absolute;
+		width: 136px;
+		height: 180px;
+		left: 112px;
+		top: 242.4px;
+		overflow: visible;
+	}
+	#chizim {
+		opacity: 1;
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		fill: rgba(255,255,255,1);
+	}
+	.chizim {
+		position: absolute;
+		overflow: visible;
+		width: 154px;
+		height: 154px;
+		left: 0px;
+		top: 0px;
+	}
+	#CHIRAG_HS {
+		opacity: 1;
+		position: absolute;
+		left: 0px;
+		top: 155px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 137px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lucida Console;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#santu {
+		opacity: 1;
+		position: absolute;
+		width: 151px;
+		height: 180px;
+		left: 112px;
+		top: 440.4px;
+		overflow: visible;
+	}
+	#santim {
+		opacity: 1;
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		fill: rgba(255,255,255,1);
+	}
+	.santim {
+		position: absolute;
+		overflow: visible;
+		width: 154px;
+		height: 154px;
+		left: 0px;
+		top: 0px;
+	}
+	#SANTHOSH_M {
+		opacity: 1;
+		position: absolute;
+		left: 0px;
+		top: 155px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 152px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lucida Console;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#vini {
+		opacity: 1;
+		position: absolute;
+		width: 136px;
+		height: 180px;
+		left: 112px;
+		top: 638.4px;
+		overflow: visible;
+	}
+	#viniim {
+		opacity: 1;
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		fill: rgba(255,255,255,1);
+	}
+	.viniim {
+		position: absolute;
+		overflow: visible;
+		width: 154px;
+		height: 154px;
+		left: 0px;
+		top: 0px;
+	}
+	#VINAY_NM {
+		opacity: 1;
+		position: absolute;
+		left: 8px;
+		top: 155px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 122px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lucida Console;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#vinni {
+		opacity: 1;
+		position: absolute;
+		width: 136px;
+		height: 180px;
+		left: 112px;
+		top: 836.4px;
+		overflow: visible;
+	}
+	#vinayim {
+		opacity: 1;
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		fill: rgba(255,255,255,1);
+	}
+	.vinayim {
+		position: absolute;
+		overflow: visible;
+		width: 154px;
+		height: 154px;
+		left: 0px;
+		top: 0px;
+	}
+	#VINAY_N {
+		opacity: 1;
+		position: absolute;
+		left: 16px;
+		top: 155px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 106px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lucida Console;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+    }
+}
+
+}
